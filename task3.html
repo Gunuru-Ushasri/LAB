@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>promt</title>
+<script>
+var a=+prompt("Enter first number ");
+document.write("value of a is : ",a)
+var b=+prompt("Enter second number");
+document.write("<br>valueof b is : ",b)
+var o=prompt("Enter any operator");
+switch(o)
+{ 
+	case "+":
+	var res=a+b;
+	document.write("<br>Addition of a and b is : ",res);
+	break;
+	
+	case "-":
+	var res=a-b;
+	document.write("<br>Subtraction of a and b is : ",res);
+	break;
+	
+	case "*":
+	var res=a*b;
+	document.write("<br>Multiplication of a and b is : ",res);
+	break;
+	
+	case "/":
+	var res=a/b;
+	document.write("<br>Division of a and b is : ",res);
+	break;
+	
+	case "**":
+	var res=a**b;
+	document.write("<br>Exponentation of a and b is : ",res);
+	break;
+	 
+	case "%":
+	var res=a%b;
+	document.write("<br>Remainder of a by b is : ",res);
+	break;
+	
+	case "++":
+	var res=a++;
+	var res=b++;
+	document.write("<br>Increment : ",res);
+	break;
+	
+	case "<":
+	var res=a<b;
+	document.write("<br> ",res);
+	break;
+	
+	case ">":
+	var res=a>b;
+	document.write("<br> ",res);
+	break;
+	
+	case "!=":
+	var res=a!=b;
+	document.write("<br> ",res);
+	break;
+	
+	case ">=":
+	var res=a>=b;
+	document.write("<br> ",res);
+	break;
+	
+	case "<=":
+	var res=a<=b;
+	document.write("<br> ",res);
+	break;
+	
+	case "&":
+	var res=a & b;
+	document.write("<br>Bitwise AND ",res);
+	break;
+	
+	case "|":
+	var res=a | b;
+	document.write("<br>Bitwise OR  ",res);
+	break;
+	
+	case "^":
+	var res=a ^ b;
+	document.write("<br>Bitwise XOR ",res);
+	break;
+	
+	case "<<":
+	var res=a<<b;
+	document.write("<br>Bitwise left shift ",res);
+	break;
+	
+	case ">>":
+	var res=a>b;
+	document.write("<br>Bitwise right shift ",res);
+	break;
+	
+	default :
+	window.alert("Enter Valid Operator");
+	break;
+}
+</script>
+</head>
+<body>
+</body>
+</html>
